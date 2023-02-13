@@ -22,6 +22,24 @@ class Dashboard extends Admin_Controller
 		$this->load->view('searchpersonal/index', $data);
         $this->load->view('templates/footer');
 	}
+	public function index1()
+	{
+        $data['title'] = 'Dashboard';
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar1', $data);
+        $this->load->view('templates/topbar', $data);
+		$this->load->view('approvalpersonal/index', $data);
+        $this->load->view('templates/footer');
+	}
+	public function approvalcompany()
+	{
+        $data['title'] = 'Dashboard';
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar1', $data);
+        $this->load->view('templates/topbar', $data);
+		$this->load->view('approvalcompany/index', $data);
+        $this->load->view('templates/footer');
+	}
 	public function searchslikpersonal()
 	{
         $data['title'] = 'Dashboard';
@@ -68,7 +86,7 @@ class Dashboard extends Admin_Controller
 	
 		// Validate the form data here
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('jenisidcard', 'jenisidcard', 'required');
+		// $this->form_validation->set_rules('jenisidcard', 'jenisidcard', 'required');
 		$this->form_validation->set_rules('nomorktp', 'nomorktp', 'required|min_length[16]|numeric');
 		$this->form_validation->set_rules('name', 'name', 'required');
 		$this->form_validation->set_rules('alanper', 'alanper', 'required');
@@ -130,7 +148,7 @@ class Dashboard extends Admin_Controller
 			$config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'pdf';
 			$config['max_size'] = '2048';
-	
+
 			$this->load->library('upload', $config);
 	
 			if (!$this->upload->do_upload('pdf_file')) {
@@ -142,32 +160,10 @@ class Dashboard extends Admin_Controller
 				$pdf_file = $data['upload_data']['full_path'];
 				$pdf_filename = 'pdf_' . time() . '.txt';
 				$text_file = './uploads/' . $pdf_filename;
-				
-				
 				$parser = new Smalot\PdfParser\Parser();
 				$pdf = $parser->parseFile($pdf_file);
 				$text = $pdf->getText();
-				// file_put_contents($text_file, $text);
 
-				// preg_match_all('/([A-Za-z]+)\s+([0-9]+)\s+(\w+)\s+([0-9]+)\s+([A-Za-z]+)\s+([0-9]+)\s+(\w+)\s+([0-9]+)\s+([A-Za-z]+)\s+([0-9]+)\s+(\w+)\s+([0-9]+)\s+([A-Za-z]+)\s+([0-9]+)/', $text, $matches);
-
-				// $json_data = array();
-				// for ($i = 0; $i < count($matches[0]); $i++) {
-				// 	$json_data[] = array(
-				// 		'kualitas' => $matches[1][$i],
-				// 		'pelapor' => $matches[2][$i],
-				// 		'Jenis_Penggunaan' => $matches[3][$i],
-				// 		'Plafon_Awal' => $matches[4][$i],
-				// 		'Baki_Debet' => $matches[5][$i],
-				// 		'Suku_Bunga' => $matches[6][$i],
-				// 		'Tanggal_Awal_Kredit' => $matches[7][$i],
-				// 		'Tanggal_Jatuh_Tempo' => $matches[8][$i],
-				// 		'Jumlah_Hari' => $matches[9][$i],
-				// 		'Tunggakan_Pokok' => $matches[10][$i],
-				// 		'Tunggakan_Bunga' => $matches[11][$i],
-				// 		'Denda' => $matches[12][$i]
-				// 	);
-				// }
 				$lines = explode("\n", $text);
 				$data = array();
 				foreach ($lines as $line) {
@@ -234,6 +230,7 @@ class Dashboard extends Admin_Controller
 				header('Content-Disposition: attachment; filename="data.json"');
 		  
 				echo ($json);
+				redirect('dashboard/index');
 				
 			}
 		} else {

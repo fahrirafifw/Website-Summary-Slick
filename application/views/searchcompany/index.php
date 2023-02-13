@@ -283,8 +283,9 @@
                         <div class="card custom-card-width">
                         <form action="<?php echo base_url('dashboard/submit_data_company')?>" method="post">
                         <label for="jenisidcard">Jenis ID Card:</label><br>
-                                        <span class = "text-danger"><?php echo $this->session->flashdata('jenisidcard_error'); ?></span>
-                                        <input type="text" id="jenisidcard" name="jenisidcard"><?php echo form_error('Nik'); ?><br>
+                        <select name="jenisidcard" id="KTP" form="jenisidcard">
+                                            <option value="NPWP">NPWP</option>
+                                        </select><br>
                                         <label for="nomorktp">Nomor KTP:</label><br>
                                         <span class = "text-danger"><?php echo $this->session->flashdata('nomorktp_error'); ?></span>
                                         <input type="text" id="nomorktp" name="nomorktp"><br>
@@ -299,7 +300,7 @@
                                             <option value="Male">Laki-laki</option>
                                             <option value="Female">Perempuan</option>
                                         </select><br><br> -->
-                                        <input type="submit" value="Submit">
+                                        <input type="submit" value="Submit" class = "btn btn-primary dropdown-toggle mx-sm-2">
 
                                     </form> 
                                 </div>
@@ -316,23 +317,6 @@
                         </div>
 
                     <!-- Color System -->
-                    <!-- <div class="row">
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
-                            </div>
-                            <div class="card-body">
-                                <div class="text-center">
-                                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="<?= base_url(); ?>vendor/img/undraw_posting_photo.svg" alt="...">
-                                </div>
-                                <p>Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a
-                                    constantly updated collection of beautiful svg images that you can use
-                                    completely free and without attribution!</p>
-                                <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
-                                    unDraw &rarr;</a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
 
             </div>

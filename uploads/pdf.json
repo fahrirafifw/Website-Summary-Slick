@@ -1,0 +1,516 @@
+[
+    {
+        "group_data": [
+            {
+                "Judul": "Baki Debet",
+                "BakiDebet": "100.335.162,00"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "109.200.000,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "13 Juni 2016"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "07 Juli 2031"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "5%",
+                "TipeBunga": "Suku Bunga Floating"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "18.279,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "13 Desember 2021"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "29.886.220,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "05 Maret 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Maret 2024"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "42,48%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "2.599,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "28 April 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,94%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "2.025.000,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "15 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "35,55%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "5.586,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "21 Juni 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Juli 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "552.944,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "21 Juni 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Juli 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "22,15%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "249.975,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "26 April 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "22,15%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "257.274,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "28 April 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "22,15%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "456.454,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "26 April 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Agustus 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "24,2%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "26.497,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "27 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 September 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "22,15%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "808,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "09 Maret 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "2.475.251,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "11 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Januari 2023"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "28,55%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "4.611,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "26 April 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Agustus 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "64.435,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "25 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 September 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "22,15%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "2.525,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "26 April 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "69.893,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "05 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Januari 2023"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "28,55%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "69.893,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "05 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Januari 2023"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "28,55%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "268,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "27 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 September 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "25.003,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "11 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Januari 2023"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,5%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "706,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "05 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Januari 2023"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "651,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "25 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 September 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "1.809.569,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "13 Desember 2021"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "27%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "706,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "05 Juli 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Januari 2023"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "2.026,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "11 Maret 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "707,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "14 Maret 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "2,95%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "117.160,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "09 Maret 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "06 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "21%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "79.992,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "09 Maret 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "24,5%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "200.479,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "11 Maret 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "24,5%",
+                "TipeBunga": "Suku Bunga Fixed"
+            },
+            {
+                "Judul": "Plafon Awal",
+                "PlafonAwal": "69.991,00"
+            },
+            {
+                "Judul": "Tanggal Akad Awal",
+                "TanggalAkadAwal": "14 Maret 2022"
+            },
+            {
+                "Judul": "Tanggal Jatuh Tempo",
+                "TanggalJatuhTempo": "05 Juni 2022"
+            },
+            {
+                "Judul": "Suku Bunga\/Imbalan",
+                "SukuBunga": "24,5%",
+                "TipeBunga": "Suku Bunga Fixed"
+            }
+        ]
+    }
+]

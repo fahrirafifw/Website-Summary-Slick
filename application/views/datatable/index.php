@@ -286,6 +286,20 @@
                                         </div>
                                     </div>
                             </div>
+                            <div class = "identitaspengajuan">
+                                <div>
+                                    Nama Pengaju : <?php echo $this->session->userdata('username'); ?>
+                                </div>
+                                <div>
+                                    Nama Calon Debitur : 
+                                </div>
+                                <div>
+                                    Tipe ID : 
+                                </div>
+                                <div>
+                                    Nomor ID : 
+                                </div>
+                            </div>
                         <div class="card-body">
                             
                             <div class="table-responsive">
@@ -360,15 +374,7 @@
                                                     <td class="center-colspan" colspan="4">TOTAL</td>
                                                    <td><?php echo $sumplafonawal?></td> 
                                                    <td><?php echo $sumbakidebet?></td>
-                                                   <td></td>
-                                                   <td></td>
-                                                   <td></td>
-                                                   <td></td>
-                                                   <td></td>
-                                                   <td></td>
-                                                   <td></td>
-                                                   <td></td>
-                                                   <td></td> 
+                                                   <td class="center-colspan" colspan="10"></td>
                                                 </tr>
                                                 </tbody>
                                             </table>

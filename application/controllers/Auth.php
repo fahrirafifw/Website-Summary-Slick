@@ -59,7 +59,17 @@ class Auth extends Admin_Controller
 					);
 					// var_dump($logged_in_sess);
 					$this->session->set_userdata($logged_in_sess);
-					redirect('dashboard');
+					if($get['id'] == 1){
+						redirect('dashboard/index1');
+					}
+					else if($get['id'] == 2){
+						redirect('dashboard');
+					}
+					else{
+						$this->data['errors'] = 'Incorrect username/password combination';
+						$this->load->view('login', $this->data);
+					}
+					
         		}
            		else {
 					var_dump($login);

@@ -41,7 +41,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Summary Slik - Dashboard</title>
+    <title>Summary Slik - Approval Company</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>vendor/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -57,7 +57,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-
+        
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -261,7 +261,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-center mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Search Slik Personal</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Approval Company</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -274,52 +274,135 @@
                         </div>
                     </div> -->
                     <!-- Content Row -->
-                    <div class="card shadow card col-md-6 text-center mx-auto">
-                        <center>
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary"> Search Slik Personal</h6>
-                            </div>
-                        </center>
-                        <div class="card custom-card-width">
-                        <form action="<?php echo base_url('dashboard/submit_data')?>" method="post">
-                                        <label for="jenisidcard">Jenis ID Card:</label><br>
-                                        
-                                        <select name="jenisidcard" id="KTP" form="jenisidcard">
-                                            <option value="KTP">KTP</option>
-                                        </select>
-                                        <?php echo form_error('Nik'); ?><br>
-                                        <label for="nomorktp">Nomor KTP:</label><br>
-                                        <span class = "text-danger"><?php echo $this->session->flashdata('nomorktp_error'); ?></span>
-                                        <input type="text" id="nomorktp" name="nomorktp"><br>
-                                        <label for="ttl">Tanggal Lahir:</label><br>
-                                        <span class = "text-danger"><?php echo $this->session->flashdata('ttl_error'); ?></span>
-                                        <input type="text" id="ttl" name="ttl" placeholder="yyyy-mm-dd"><br>
-                                        <label for="name">Nama Lengkap:</label><br>
-                                        <span class = "text-danger"><?php echo $this->session->flashdata('name_error'); ?></span>
-                                        <input type="text" id="name" name="name"><br>
-                                        <label for="alanper">Alasan Permintaan:</label><br>
-                                        <span class = "text-danger"><?php echo $this->session->flashdata('ttl_error'); ?></span>
-                                        <input type="text" id="alanper" name="alanper"><br><br>
-                                        <!-- <label for="jk">Alasan Permintaan:</label><br>
-                                        <select id="jk" name="jenis Kelamin">
-                                            <option value="Male">Laki-laki</option>
-                                            <option value="Female">Perempuan</option>
-                                        </select><br><br> -->
-                                        <input type="submit" value="Submit" class = "btn btn-primary dropdown-toggle mx-sm-2">
-
-                                    </form> 
+                    <div class="card shadow card  text-center mx-auto">
+                        <div class="column form-text" id="header">
+                            <div class="custommar2 ">
+                                <button class="btn btn-primary1 dropdown-toggle mx-sm-2" type="button" data-toggle="dropdown" aria-expanded="false">
+                                    <i class= "fa fa-download"></i>  Download Slik
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="<?php echo base_url('dashboard/pdf')?>">PDF</a>
+                                    <a class="dropdown-item" href="<?php echo base_url('dashboard/excel')?>">EXCEL</a>
                                 </div>
-                                <?php if ($this->session->flashdata('success')): ?>
-                                    <div class="alert alert-success">
-                                        <?php echo $this->session->flashdata('success'); ?>
-                                    </div>
-                                <?php endif; ?>
-                                <?php if ($this->session->flashdata('failed')): ?>
-                                    <div class="alert alert-danger">
-                                        <?php echo $this->session->flashdata('failed'); ?>
-                                    </div>
-                                <?php endif; ?>
+                            </div>
+                            <hr class="sidebar-divider my-0">
+                            <div class = "identitaspengajuan">
+                                <div>
+                                    Nama Pengaju : 
+                                </div>
+                                <div>
+                                    Nama Calon Debitur : 
+                                </div>
+                                <div>
+                                    Tipe ID : 
+                                </div>
+                                <div>
+                                    Nomor ID : 
+                                </div>
+                            </div>
+                            <hr class="sidebar-divider my-0">
+                                <button class="btn btn-primary1 mx-sm-2" type="button" id="toggle-btn">>
+                                    <i class= ""></i>  Show/Hide Table
+                                </button>
                         </div>
+                            
+                    <div class="card-body" id="body">
+                    
+                        
+                            
+                            <div class="table-responsive">
+                                <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
+                                    
+                                    
+                                    <div class="row">
+                                        <div class="col-md-12 col-xs-12">
+                                        <table id="example" class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Debitur ID</th>
+                                                        <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label = "Name: activate to sort column descending" style="width: 57px;" aria-sort="ascending" style="width: 57px;" > Kualitas </th>
+                                                        <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label = "Name: activate to sort column descending" style="width: 57px;" aria-sort="ascending" style="width: 57px;" > Nama Pelapor </th>
+                                                        <th>Jenis Pengguna</th>
+                                                        <th>Plafon Awal</th>
+                                                        <th>Baki Debet</th>
+                                                        <th>Suku Bunga</th>
+                                                        <th>Tgl. Awal Kredit</th>
+                                                        <th>Tgl. jth Tempo</th>
+                                                        <th>Jml Hari</th>
+                                                        <th>T. Pokok</th>
+                                                        <th>T. Bunga</th>
+                                                        <th>Denda</th>
+                                                        <th>Angsuran</th> 
+                                                        <th>Kondisi</th> 
+                                                        <th>Jenis Suku Bunga</th>
+                                                        <th>Approve?</th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                <?php foreach ($data["Data"]["Slik"]["Detail"]["FasilitasKredit"] as $row) :
+                                                    $date1 = new DateTime($row["TanggalAwalKredit"]);
+                                                    $date2 = new DateTime($row["TanggalJatuhTempo"]);
+                                                    $plafonawal1= $row["PlafonAwal"];
+                                                    $JenisSukuBunga= $row["JenisSukuBunga"];
+                                                    $sukubunga= $row["SukuBunga"];
+                                                    $sukubunga = $sukubunga/1200;
+                                                    $interval = $date1->diff($date2);
+                                                    $month = $interval->m + ($interval->y * 12);
+                                                    if ($JenisSukuBunga == 1) {
+                                                        $result = ($plafonawal1/$month);
+                                                    } else if ($JenisSukuBunga == 2) {
+                                                        $result = $sukubunga * -$plafonawal1 * pow((1+$sukubunga),$month) / (1 - pow((1+$sukubunga),$month));
+                                                    } else {
+                                                        $result = ($plafonawal1/$month);
+                                                    }
+                                                    $result = number_format($result, 2, ',', '.');
+                                                    ?>
+                                                    
+                                                <tr>
+                                                    <td> <?php echo $row["DebiturId"]; ?> </td>
+                                                    <td> <?php echo $row["Kolektibilitas"]?>-<?php echo $row["KolektibilitasKet"]?></td>
+                                                    <td> <?php echo $row["LjkKet"]; ?> </td>
+                                                    <td> <?php echo $row["JenisPenggunaanKet"]; ?> </td>
+                                                    <td> <?php echo $row["PlafonAwal"]; ?> </td>
+                                                    <td> <?php echo $row["BakiDebet"]; ?> </td>
+                                                    <td> <?php echo $row["SukuBunga"]; ?>% </td>
+                                                    <td> <?php echo $row["TanggalAwalKredit"]; ?> </td>
+                                                    <td> <?php echo $row["TanggalJatuhTempo"]; ?> </td>
+                                                    <td> <?php echo $row["JumlahHariTunggakan"]; ?> </td>
+                                                    <td> <?php echo $row["TunggakanPokok"]; ?> </td>
+                                                    <td> <?php echo $row["TunggakanBunga"]; ?> </td>
+                                                    <td> <?php echo $row["Denda"]; ?> </td>
+                                                    <td> <?php echo $result; ?></td> 
+                                                    <td> <?php echo $row["KondisiKet"]; ?> </td>   
+                                                    <td> <?php echo $row["JenisSukuBungaKet"]; ?> </td>   
+                                                    <td> <select name="Approve" id="Approve?" form="jenisidcard" class = "btn btn-primary1 dropdown-toggle mx-sm-2">
+                                                            <option value="Yes">Yes</option>
+                                                            <option value="Yes">No</option>
+                                                         </select>
+                                                    </td>   
+                                                </tr>
+                                                <?php endforeach?>
+
+                                                <tr>
+                                                    <td class="center-colspan" colspan="4">TOTAL</td>
+                                                   <td><?php echo $sumplafonawal?></td> 
+                                                   <td><?php echo $sumbakidebet?></td>
+                                                   <td class="center-colspan" colspan="10"></td>
+                                                   <td> <button class="btn btn-primary1 mx-sm-2" type="button">
+                                                            Submit
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
 
                     <!-- Color System -->
                     <!-- <div class="row">
@@ -348,7 +431,13 @@
         <!-- End of Main Content -->
 
         <!-- Footer -->
-
+        <!-- <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2021</span>
+                    </div>
+                </div>
+            </footer> -->
         <!-- End of Footer -->
 
     </div>
@@ -416,7 +505,9 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script type="text/javascript">
-
+        $("#toggle-btn").click(function() {
+  $("#body").slideToggle();
+});
         // $(document).ready(function){
         //     $('#search').keyup(function(){
         //         $('#example').html('');

@@ -1,8 +1,8 @@
  <!-- Sidebar -->
- <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+ <ul class="navbar-nav bg-gradient-primary1 sidebar sidebar-dark accordion" id="accordionSidebar">
 
 <!-- Sidebar - Brand -->
-<a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('dashboard/searchslikpersonal  '); ?>">
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('dashboard/index1'); ?>">
   <div class="sidebar-brand-icon rotate-n-15">
   <i class="fas fa-book"></i>
   </div>
@@ -14,19 +14,14 @@
 <!-- Nav Item - Dashboard -->
 
 <li class="nav-item">
-  <a class="nav-link" href="<?= base_url('dashboard/searchslikpersonal  '); ?>">
-    <i class="fas fa-fw fa-user-alt"></i>
-    <span>Search Slik Personal</span></a>
+  <a class="nav-link" href="<?= base_url('dashboard/index1'); ?>">
+    <i class="fas fa-fw fa-user"></i>
+    <span>Approval Personal</span></a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="<?= base_url('dashboard/searchslikcompany'); ?>">
+  <a class="nav-link" href="<?= base_url('dashboard/approvalcompany'); ?>">
     <i class="fas fa-fw fa-building"></i>
-    <span>Search Slik Company</span></a>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="<?= base_url('dashboard/datatable'); ?>">
-    <i class="fas fa-fw fa-table"></i>
-    <span>Data Table</span></a>
+    <span>Approval Company</span></a>
 </li>
 <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
